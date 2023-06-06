@@ -1,0 +1,496 @@
+/* index.html | Home Page*/
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../Florist\ View/background/background.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+  
+      .logo img{
+          float: left;
+          width: 180px;
+          height: auto;
+          margin-top: 25px;
+          margin-left: 40px;
+      }
+      
+      ul{
+          float: right;
+          list-style-type: none; 
+          margin-top: 65px;
+          margin-right: 100px;
+          font-size: 23px;
+      }
+      
+      ul li{
+          display: inline-block;
+      }
+      
+      ul li a{
+          text-decoration: none;
+          color: #fff;
+          padding: 5px 20px;
+          border: 1px solid transparent;
+          transition: 0.6s ease;
+          font-weight: bold;
+      }
+      
+      ul li a:hover{
+          background-color: #fff;
+          color: #000;
+          border-radius: 25px;
+      }
+      
+      ul li.active a{
+          background-color: #fff;
+          color: #000;
+          border-radius: 25px;
+      }
+      
+      h1 {
+          font-size: 48px;
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+        }
+  
+      .content{
+          width: 100%;
+          position: absolute;
+          top: 35%;
+          transform: translateY(-50%);
+          text-align: center;
+          color: #373f39;
+      }
+      
+      .content h1{
+          font-size: 70px;
+          font-family: cursive;
+      }
+      
+      button{
+          width: 200px;
+          padding: 15px 0;
+          text-align: center;
+          font-size: 25px;
+          margin-top: 400px;
+          border-radius: 25px;
+          font-weight: bold;
+          border: 5px solid #fdfdfdf1;
+          background: transparent;
+          color: rgb(255, 255, 255);
+          cursor: pointer;
+          position: relative;
+          overflow: hidden;
+      }
+      button a{
+          text-decoration: none;
+          color: rgb(230, 230, 230);
+      }
+      
+      .navbutton {
+          margin-left: 75vh;
+      }
+  
+      span{
+          background: #333;
+          color: #000;
+          height: 100%;
+          width: 0%;
+          border-radius: 25px;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          z-index: -1;
+          transition: 0.5s;
+      }
+      button:hover span{
+          width: 100%;
+      }
+      button:hover{
+          border: none;
+      }
+  
+      .footer1 {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        margin-top: 220px;
+      }
+
+
+      /* about.html | About Page */
+
+    .body2 {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../Florist\ View/background/cherry.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-family: cursive;
+    }
+    
+    .logo img{
+        float: left;
+        width: 180px;
+        height: auto;
+        margin-top: 25px;
+        margin-left: 40px;
+    }
+
+    h2 {
+        font-family: cursive;
+        font-size: 40px;
+    }
+    
+    .section1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        padding-top: 100px;
+        text-align: center;
+        margin-left: 100px;
+      }
+      
+      img {
+        max-width: 50%;
+        border-radius: 50px;
+        margin-top: 5%;
+        margin-left: 10%;
+      }
+    
+      .container {
+        padding: 10px;
+        border: 2px solid #333;
+        background-color: #f1f1f1;
+        display: inline-block;
+        border-radius: 25px;
+        margin-left: 50px;
+        margin-top: 5%;
+        font-family: cursive;
+      }
+
+
+    .border1{
+        border: solid #fff;	
+        border-width: thin;
+        margin-left: 280px;
+        margin-right: 280px;
+        padding: 30px;
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 25px;
+        font-family: cursive;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .button {
+        display: inline-block;
+        background-color: #39b7dd;
+        color: #000000;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        margin-left: 47%;
+        margin-bottom: 10px;
+      }
+      
+      .button:hover {
+        background-color: #2dee8e;
+      }
+
+      .footer2 {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+
+    /* gallery.html | Gallery Page */
+
+    .body3 {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../Florist\ View/background/background1.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      
+      h1{
+          font-family: cursive;
+          font-size: 50px;
+          text-align: center;
+          margin-top: 13%;
+      }
+  
+      header {
+        background-color: #9f7461;
+        color: #000000;
+        padding: 10px;
+        text-align: center;
+        font-family: cursive;
+      }
+      
+      section {
+        padding: 10px;
+      }
+      
+    /* Gallery container */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(700px, 3fr));
+      margin-left: 10%;
+    }
+    
+    /* Image container */
+    .gallery-image {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 300px;
+    }
+    
+    /* Image */
+    .gallery-image img {
+      width: 100%;
+      height: 100%;
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+    
+    /* Image hover effect */
+    .gallery-image:hover img {
+      transform: scale(1.1);
+    }
+    
+    /* Image overlay */
+    .gallery-image .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0);
+      opacity: 0;
+      transition: opacity 0.3s;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    
+    /* Image overlay text */
+    .gallery-image .overlay-text {
+      color: #000000;
+      font-size: 60px;
+      font-weight: bold;
+      text-align: center;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    /* Image overlay on hover */
+    .gallery-image:hover .overlay {
+      opacity: 1;
+    }
+    
+    /* Image overlay text on hover */
+    .gallery-image:hover .overlay-text {
+      opacity: 1;
+    }
+    
+    /* Popup container */
+    .popup-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s;
+    }
+    
+    /* Popup image */
+    .popup-image {
+      max-width: 100%;
+      max-height: 100%;
+      justify-content: center;
+    }
+    
+    /* Popup description */
+    .popup-description {
+      color: #fff;
+      font-size: 30px;
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    /* Close button */
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: #fff;
+      cursor: pointer;
+    }
+      
+      /* .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      
+      .modal-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .modal-image {
+        max-width: 80%;
+        max-height: 80%;
+        object-fit: contain;
+      }
+      
+      .modal-description {
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+      
+      .close-button {
+        color: #fff;
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+      .close-button:hover,
+      .close-button:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+      } */
+  
+      .dropdown {
+        display: inline-block;
+      }
+      
+      .dropbtn {
+        background-color: #f1f1f1;
+        color: #333;
+        border-radius: 25px;
+        font-size: 23px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border-radius: 25px;
+        padding-right: 10px;
+        font-size: 15px;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: #333;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #00cad1;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .footer3 {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+
+      /* spring.html | Spring */
+
+      .body4 {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../Florist\ View/background/bg.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+
+
+      /* summer.html | Summer */
+
+      .body5 {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../Florist\ View/background/summer.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+
+
+       /* winter.html | Winter */
+
+       .body6 {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../Florist\ View/background/winter.jpg);
+        background-size: cover;
+        background-position: center;
+      }     
+      

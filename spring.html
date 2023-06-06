@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gallery | Florist View</title>
+    <link rel="stylesheet" href="../Florist View/img/logo.png" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="body4">
+      <div class="logo">
+        <img src="../Florist View/img/logo.png" />
+      </div>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="dropdown">
+          <a href="gallery.html" class="dropbtn">Gallery</a>
+          <div class="dropdown-content">
+            <a href="spring.html">Spring</a>
+            <a href="summer.html">Summer</a>
+            <a href="winter.html">Winter</a>
+          </div>
+        </li>
+      </ul>
+
+      <section>
+        <h1>Spring</h1>
+      </section>
+      <div class="gallery">
+        <div class="gallery-image">
+          <img src="../Florist View/img/hyacinth1.jpg" alt="Image 1">
+          <div class="overlay" onclick="showPopup('../Florist View/img/hyacinth1.jpg', 'Hyacinthus is a small genus of bulbous, spring-blooming perennials. They are fragrant flowering plants in the family Asparagaceae, subfamily Scilloideae and are commonly called hyacinths.')">
+            <div class="overlay-text">Hyacinth</div>
+          </div>
+        </div>
+        <div class="gallery-image">
+          <img src="../Florist View/img/tulip1.jpg" alt="Image 2">
+          <div class="overlay" onclick="showPopup('../Florist View/img/tulip1.jpg', 'Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.')">
+            <div class="overlay-text">Tulip</div>
+          </div>
+        </div>
+        <div class="gallery-image">
+          <img src="../Florist View/img/pansy.jpg" alt="Image 3">
+          <div class="overlay" onclick="showPopup('../Florist View/img/pansy.jpg', 'The garden pansy is a type of large-flowered hybrid plant cultivated as a garden flower. It is derived by hybridization from several species in the section Melanium of the genus Viola, particularly V. tricolor, a wildflower of Europe and western Asia known as heartsease.')">
+            <div class="overlay-text">Pansy</div>
+          </div>
+        </div>
+        <div class="gallery-image">
+          <img src="../Florist View/img/Peony.jpg" alt="Image 3">
+          <div class="overlay" onclick="showPopup('../Florist View/img/Peony.jpg', 'The peony or paeony is a flowering plant in the genus Paeonia, the only genus in the family Paeoniaceae. Peonies are native to Asia, Europe and Western North America.')">
+            <div class="overlay-text">Peony</div>
+          </div>
+        </div>
+        </div>
+      </body>      
+    
+      <div class="popup-container" onclick="hidePopup()">
+        <div class="popup-content">
+          <img class="popup-image" src="" alt="">
+          <div class="popup-description"></div>
+          <span class="close-button" onclick="hidePopup()"></span>
+        </div>
+      </div>
+      <footer>
+        <div class="footer2">
+          <p>&copy; 2023 Florist View. All rights reserved.</p>
+        </div>
+        
+      </footer>
+</html>
