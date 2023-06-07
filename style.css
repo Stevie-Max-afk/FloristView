@@ -4,7 +4,7 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../Florist\ View/background/background.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(.//background/background.jpg);
         background-size: cover;
         background-position: center;
       }
@@ -74,7 +74,7 @@
           padding: 15px 0;
           text-align: center;
           font-size: 25px;
-          margin-top: 400px;
+          margin-top: 450px;
           border-radius: 25px;
           font-weight: bold;
           border: 5px solid #fdfdfdf1;
@@ -127,7 +127,7 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../Florist\ View/background/cherry.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(.//background/cherry.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -232,7 +232,7 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../Florist\ View/background/background1.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(.//background/background1.jpg);
         background-size: cover;
         background-position: center;
       }
@@ -465,7 +465,7 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../Florist\ View/background/bg.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(.//background/bg.jpg);
         background-size: cover;
         background-position: center;
       }
@@ -477,7 +477,7 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../Florist\ View/background/summer.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(.//background/summer.jpg);
         background-size: cover;
         background-position: center;
       }
@@ -489,7 +489,7 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../Florist\ View/background/winter.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(.//background/winter.jpg);
         background-size: cover;
         background-position: center;
       }     
